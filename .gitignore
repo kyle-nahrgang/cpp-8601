@@ -45,3 +45,11 @@ libtool
 docs/Doxyfile
 **/.deps
 **/.libs
+
+# package things
+*.tar.gz
+
+# test things
+test/*.log
+test/*.trs
+test/*.test
