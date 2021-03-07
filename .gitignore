@@ -50,6 +50,10 @@ docs/Doxyfile
 *.tar.gz
 
 # test things
-test/*.log
-test/*.trs
-test/*.test
+**/*.log
+**/*.trs
+**/*.test
+
+# documentation things
+docs/html
+docs/latex

@@ -1,6 +1,7 @@
 if HAVE_DOXYGEN
 
-.doxygen_stamp: docs/Doxyfile
-	$(DOXYGEN) docs/Doxyfile
+BUILT_SOURCES: .doxygen_stamp
+.doxygen_stamp: Doxyfile
+	$(DOXYGEN) Doxyfile
 
 endif

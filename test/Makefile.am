@@ -3,7 +3,7 @@ if HAVE_CPPUNIT
 BUILT_SOURCES = runner.o
 
 runner.o:
-	$(CC) runner.cpp
+	$(CXX) -c $(CXXFLAGS) $(CPPUNIT_CFLAGS) runner.cpp
 
 TESTS = parser
 check_PROGRAMS = $(TESTS)
