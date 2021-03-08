@@ -5,7 +5,7 @@ BUILT_SOURCES = runner.o
 runner.o:
 	$(CXX) -c $(CXXFLAGS) $(CPPUNIT_CFLAGS) runner.cpp
 
-TESTS = parser
+TESTS = timepoint
 check_PROGRAMS = $(TESTS)
 endif
 
